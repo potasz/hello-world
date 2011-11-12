@@ -17,6 +17,4 @@ object MapReduce extends App {
   }
  
   result.keys.foreach(k => println(k + " -> " + result(k)))
-  
-  List(1, 2, 3) map (_ * 2)
 }
